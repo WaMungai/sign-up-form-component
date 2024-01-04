@@ -49,7 +49,7 @@ function App() {
             <p className="tag">
               <strong>Try it free 7 days</strong> then $20/mo. thereafter
             </p>
-            <form className="form">
+            <form className="form" onSubmit={formik.handleSubmit}>
               <input
                 type="text"
                 name="firstName"
